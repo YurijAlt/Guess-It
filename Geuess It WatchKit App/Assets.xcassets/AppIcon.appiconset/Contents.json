@@ -1,6 +1,54 @@
 {
   "images" : [
     {
+      "idiom" : "iphone",
+      "scale" : "2x",
+      "size" : "20x20"
+    },
+    {
+      "idiom" : "iphone",
+      "scale" : "3x",
+      "size" : "20x20"
+    },
+    {
+      "filename" : "watch_icon_29@2x.png",
+      "idiom" : "iphone",
+      "scale" : "2x",
+      "size" : "29x29"
+    },
+    {
+      "filename" : "watch_icon_29@3x.png",
+      "idiom" : "iphone",
+      "scale" : "3x",
+      "size" : "29x29"
+    },
+    {
+      "filename" : "watch_icon_40@2x.png",
+      "idiom" : "iphone",
+      "scale" : "2x",
+      "size" : "40x40"
+    },
+    {
+      "idiom" : "iphone",
+      "scale" : "3x",
+      "size" : "40x40"
+    },
+    {
+      "idiom" : "iphone",
+      "scale" : "2x",
+      "size" : "60x60"
+    },
+    {
+      "idiom" : "iphone",
+      "scale" : "3x",
+      "size" : "60x60"
+    },
+    {
+      "idiom" : "ios-marketing",
+      "scale" : "1x",
+      "size" : "1024x1024"
+    },
+    {
       "idiom" : "watch",
       "role" : "notificationCenter",
       "scale" : "2x",
@@ -100,6 +148,52 @@
       "idiom" : "watch-marketing",
       "scale" : "1x",
       "size" : "1024x1024"
+    },
+    {
+      "filename" : "Watch App Store.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "watch_icon_27_5@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "watch_icon_24@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x",
+      "size" : "24x24"
+    },
+    {
+      "filename" : "watch_icon_44@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x",
+      "size" : "44x44"
+    },
+    {
+      "filename" : "watch_icon_50@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x",
+      "size" : "50x50"
+    },
+    {
+      "filename" : "watch_icon_86@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x",
+      "size" : "86x86"
+    },
+    {
+      "filename" : "watch_icon_98@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x",
+      "size" : "98x98"
+    },
+    {
+      "filename" : "watch_icon_108@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x",
+      "size" : "108x108"
     }
   ],
   "info" : {

@@ -6,16 +6,29 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="19514"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--Rectangle-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Geuess_It_WatchKit_App" customModuleProvider="target">
+                <controller backgroundImage="Rectangle" fullScreen="YES" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Geuess_It_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label alignment="left" text="Label" id="I0g-zf-Nn2"/>
+                        <group width="1" alignment="center" verticalAlignment="center" layout="vertical" id="r0B-8r-xRw">
+                            <items>
+                                <label width="1" alignment="center" verticalAlignment="center" text="Джентельмены удачи" textAlignment="center" numberOfLines="0" id="I0g-zf-Nn2">
+                                    <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                </label>
+                                <button width="1" alignment="left" verticalAlignment="center" title="🎩🍀" id="MCN-mT-ULL">
+                                    <fontDescription key="font" type="system" pointSize="26"/>
+                                </button>
+                            </items>
+                        </group>
                     </items>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </controller>
             </objects>
             <point key="canvasLocation" x="-16" y="-6"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Rectangle" width="300" height="300"/>
+    </resources>
 </document>
