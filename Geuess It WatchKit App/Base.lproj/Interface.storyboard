@@ -18,11 +18,18 @@
                                 </label>
                                 <button width="1" alignment="left" verticalAlignment="center" title="🎩🍀" id="MCN-mT-ULL">
                                     <fontDescription key="font" type="system" pointSize="26"/>
+                                    <connections>
+                                        <action selector="refreshAction" destination="AgC-eL-Hgc" id="ZZQ-xc-3fy"/>
+                                    </connections>
                                 </button>
                             </items>
                         </group>
                     </items>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="mainButton" destination="MCN-mT-ULL" id="5pO-CK-O3i"/>
+                        <outlet property="mainLabel" destination="I0g-zf-Nn2" id="TuO-wH-mFc"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="-16" y="-6"/>
