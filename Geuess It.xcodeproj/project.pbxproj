@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C451C43927B02814009F2D75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C451C43827B02814009F2D75 /* AppDelegate.swift */; };
+		C451C43B27B02814009F2D75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C451C43A27B02814009F2D75 /* SceneDelegate.swift */; };
+		C451C43D27B02814009F2D75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C451C43C27B02814009F2D75 /* ViewController.swift */; };
+		C451C44027B02814009F2D75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C451C43E27B02814009F2D75 /* Main.storyboard */; };
+		C451C44227B02815009F2D75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C451C44127B02815009F2D75 /* Assets.xcassets */; };
+		C451C44527B02815009F2D75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C451C44327B02815009F2D75 /* LaunchScreen.storyboard */; };
+		C451C44A27B02815009F2D75 /* Geuess It WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C451C44927B02815009F2D75 /* Geuess It WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C451C45027B02815009F2D75 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C451C44E27B02815009F2D75 /* Interface.storyboard */; };
+		C451C45227B02816009F2D75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C451C45127B02816009F2D75 /* Assets.xcassets */; };
+		C451C45827B02816009F2D75 /* Geuess It WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C451C45727B02816009F2D75 /* Geuess It WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C451C45D27B02816009F2D75 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C451C45C27B02816009F2D75 /* InterfaceController.swift */; };
+		C451C45F27B02816009F2D75 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C451C45E27B02816009F2D75 /* ExtensionDelegate.swift */; };
+		C451C46127B02816009F2D75 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C451C46027B02816009F2D75 /* ComplicationController.swift */; };
+		C451C46327B02817009F2D75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C451C46227B02817009F2D75 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C451C44B27B02815009F2D75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C451C42D27B02814009F2D75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C451C44827B02815009F2D75;
+			remoteInfo = "Geuess It WatchKit App";
+		};
+		C451C45927B02816009F2D75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C451C42D27B02814009F2D75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C451C45627B02816009F2D75;
+			remoteInfo = "Geuess It WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C451C46A27B02817009F2D75 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C451C45827B02816009F2D75 /* Geuess It WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C451C46E27B02817009F2D75 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C451C44A27B02815009F2D75 /* Geuess It WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C451C43527B02814009F2D75 /* Geuess It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Geuess It.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C451C43827B02814009F2D75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C451C43A27B02814009F2D75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C451C43C27B02814009F2D75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C451C43F27B02814009F2D75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C451C44127B02815009F2D75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C451C44427B02815009F2D75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C451C44627B02815009F2D75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C451C44927B02815009F2D75 /* Geuess It WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Geuess It WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C451C44F27B02815009F2D75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C451C45127B02816009F2D75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C451C45727B02816009F2D75 /* Geuess It WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Geuess It WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C451C45C27B02816009F2D75 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C451C45E27B02816009F2D75 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		C451C46027B02816009F2D75 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		C451C46227B02817009F2D75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C451C46427B02817009F2D75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C451C43227B02814009F2D75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C451C45427B02816009F2D75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C451C42C27B02814009F2D75 = {
+			isa = PBXGroup;
+			children = (
+				C451C43727B02814009F2D75 /* Geuess It */,
+				C451C44D27B02815009F2D75 /* Geuess It WatchKit App */,
+				C451C45B27B02816009F2D75 /* Geuess It WatchKit Extension */,
+				C451C43627B02814009F2D75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C451C43627B02814009F2D75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C451C43527B02814009F2D75 /* Geuess It.app */,
+				C451C44927B02815009F2D75 /* Geuess It WatchKit App.app */,
+				C451C45727B02816009F2D75 /* Geuess It WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C451C43727B02814009F2D75 /* Geuess It */ = {
+			isa = PBXGroup;
+			children = (
+				C451C43827B02814009F2D75 /* AppDelegate.swift */,
+				C451C43A27B02814009F2D75 /* SceneDelegate.swift */,
+				C451C43C27B02814009F2D75 /* ViewController.swift */,
+				C451C43E27B02814009F2D75 /* Main.storyboard */,
+				C451C44127B02815009F2D75 /* Assets.xcassets */,
+				C451C44327B02815009F2D75 /* LaunchScreen.storyboard */,
+				C451C44627B02815009F2D75 /* Info.plist */,
+			);
+			path = "Geuess It";
+			sourceTree = "<group>";
+		};
+		C451C44D27B02815009F2D75 /* Geuess It WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C451C44E27B02815009F2D75 /* Interface.storyboard */,
+				C451C45127B02816009F2D75 /* Assets.xcassets */,
+			);
+			path = "Geuess It WatchKit App";
+			sourceTree = "<group>";
+		};
+		C451C45B27B02816009F2D75 /* Geuess It WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C451C45C27B02816009F2D75 /* InterfaceController.swift */,
+				C451C45E27B02816009F2D75 /* ExtensionDelegate.swift */,
+				C451C46027B02816009F2D75 /* ComplicationController.swift */,
+				C451C46227B02817009F2D75 /* Assets.xcassets */,
+				C451C46427B02817009F2D75 /* Info.plist */,
+			);
+			path = "Geuess It WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C451C43427B02814009F2D75 /* Geuess It */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C451C46F27B02817009F2D75 /* Build configuration list for PBXNativeTarget "Geuess It" */;
+			buildPhases = (
+				C451C43127B02814009F2D75 /* Sources */,
+				C451C43227B02814009F2D75 /* Frameworks */,
+				C451C43327B02814009F2D75 /* Resources */,
+				C451C46E27B02817009F2D75 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C451C44C27B02815009F2D75 /* PBXTargetDependency */,
+			);
+			name = "Geuess It";
+			productName = "Geuess It";
+			productReference = C451C43527B02814009F2D75 /* Geuess It.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C451C44827B02815009F2D75 /* Geuess It WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C451C46B27B02817009F2D75 /* Build configuration list for PBXNativeTarget "Geuess It WatchKit App" */;
+			buildPhases = (
+				C451C44727B02815009F2D75 /* Resources */,
+				C451C46A27B02817009F2D75 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C451C45A27B02816009F2D75 /* PBXTargetDependency */,
+			);
+			name = "Geuess It WatchKit App";
+			productName = "Geuess It WatchKit App";
+			productReference = C451C44927B02815009F2D75 /* Geuess It WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C451C45627B02816009F2D75 /* Geuess It WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C451C46727B02817009F2D75 /* Build configuration list for PBXNativeTarget "Geuess It WatchKit Extension" */;
+			buildPhases = (
+				C451C45327B02816009F2D75 /* Sources */,
+				C451C45427B02816009F2D75 /* Frameworks */,
+				C451C45527B02816009F2D75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Geuess It WatchKit Extension";
+			productName = "Geuess It WatchKit Extension";
+			productReference = C451C45727B02816009F2D75 /* Geuess It WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C451C42D27B02814009F2D75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C451C43427B02814009F2D75 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					C451C44827B02815009F2D75 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					C451C45627B02816009F2D75 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C451C43027B02814009F2D75 /* Build configuration list for PBXProject "Geuess It" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C451C42C27B02814009F2D75;
+			productRefGroup = C451C43627B02814009F2D75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C451C43427B02814009F2D75 /* Geuess It */,
+				C451C44827B02815009F2D75 /* Geuess It WatchKit App */,
+				C451C45627B02816009F2D75 /* Geuess It WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C451C43327B02814009F2D75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C451C44527B02815009F2D75 /* LaunchScreen.storyboard in Resources */,
+				C451C44227B02815009F2D75 /* Assets.xcassets in Resources */,
+				C451C44027B02814009F2D75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C451C44727B02815009F2D75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C451C45227B02816009F2D75 /* Assets.xcassets in Resources */,
+				C451C45027B02815009F2D75 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C451C45527B02816009F2D75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C451C46327B02817009F2D75 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C451C43127B02814009F2D75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C451C43D27B02814009F2D75 /* ViewController.swift in Sources */,
+				C451C43927B02814009F2D75 /* AppDelegate.swift in Sources */,
+				C451C43B27B02814009F2D75 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C451C45327B02816009F2D75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C451C45F27B02816009F2D75 /* ExtensionDelegate.swift in Sources */,
+				C451C45D27B02816009F2D75 /* InterfaceController.swift in Sources */,
+				C451C46127B02816009F2D75 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C451C44C27B02815009F2D75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C451C44827B02815009F2D75 /* Geuess It WatchKit App */;
+			targetProxy = C451C44B27B02815009F2D75 /* PBXContainerItemProxy */;
+		};
+		C451C45A27B02816009F2D75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C451C45627B02816009F2D75 /* Geuess It WatchKit Extension */;
+			targetProxy = C451C45927B02816009F2D75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C451C43E27B02814009F2D75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C451C43F27B02814009F2D75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C451C44327B02815009F2D75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C451C44427B02815009F2D75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C451C44E27B02815009F2D75 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C451C44F27B02815009F2D75 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C451C46527B02817009F2D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C451C46627B02817009F2D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C451C46827B02817009F2D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MF2X2E877U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Geuess It WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Geuess It WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yura-chekalyuk.Geuess-It.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		C451C46927B02817009F2D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MF2X2E877U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Geuess It WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Geuess It WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yura-chekalyuk.Geuess-It.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		C451C46C27B02817009F2D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MF2X2E877U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Geuess_It_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Geuess It WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "yura-chekalyuk.Geuess-It";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yura-chekalyuk.Geuess-It.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		C451C46D27B02817009F2D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MF2X2E877U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Geuess_It_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Geuess It WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "yura-chekalyuk.Geuess-It";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yura-chekalyuk.Geuess-It.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		C451C47027B02817009F2D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MF2X2E877U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Geuess It/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yura-chekalyuk.Geuess-It";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C451C47127B02817009F2D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MF2X2E877U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Geuess It/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yura-chekalyuk.Geuess-It";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C451C43027B02814009F2D75 /* Build configuration list for PBXProject "Geuess It" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C451C46527B02817009F2D75 /* Debug */,
+				C451C46627B02817009F2D75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C451C46727B02817009F2D75 /* Build configuration list for PBXNativeTarget "Geuess It WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C451C46827B02817009F2D75 /* Debug */,
+				C451C46927B02817009F2D75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C451C46B27B02817009F2D75 /* Build configuration list for PBXNativeTarget "Geuess It WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C451C46C27B02817009F2D75 /* Debug */,
+				C451C46D27B02817009F2D75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C451C46F27B02817009F2D75 /* Build configuration list for PBXNativeTarget "Geuess It" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C451C47027B02817009F2D75 /* Debug */,
+				C451C47127B02817009F2D75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C451C42D27B02814009F2D75 /* Project object */;
+}
